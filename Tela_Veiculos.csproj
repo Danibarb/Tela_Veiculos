@@ -46,16 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="CheckedBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CheckedBox.Designer.cs">
+      <DependentUpon>CheckedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckedListBox.Designer.cs">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Componentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Componentes.Designer.cs">
+      <DependentUpon>Componentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FilhoCheckedBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FilhoCheckedBox.Designer.cs">
+      <DependentUpon>FilhoCheckedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tela_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tela_Veiculos.Designer.cs">
+      <DependentUpon>Tela_Veiculos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="CheckedBox.resx">
+      <DependentUpon>CheckedBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckedListBox.resx">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Componentes.resx">
+      <DependentUpon>Componentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilhoCheckedBox.resx">
+      <DependentUpon>FilhoCheckedBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tela_Veiculos.resx">
+      <DependentUpon>Tela_Veiculos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

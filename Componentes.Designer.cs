@@ -33,6 +33,13 @@
             this.bt_adicionar = new System.Windows.Forms.Button();
             this.bt_limpar = new System.Windows.Forms.Button();
             this.txt_listaVeiculos = new System.Windows.Forms.TextBox();
+            this.bt_novaTela = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lb_veiculo
@@ -80,21 +87,76 @@
             this.txt_listaVeiculos.Size = new System.Drawing.Size(219, 189);
             this.txt_listaVeiculos.TabIndex = 4;
             // 
+            // bt_novaTela
+            // 
+            this.bt_novaTela.Location = new System.Drawing.Point(5, 319);
+            this.bt_novaTela.Name = "bt_novaTela";
+            this.bt_novaTela.Size = new System.Drawing.Size(224, 23);
+            this.bt_novaTela.TabIndex = 5;
+            this.bt_novaTela.Text = "Nova Tela Veiculos";
+            this.bt_novaTela.UseVisualStyleBackColor = true;
+            this.bt_novaTela.Click += new System.EventHandler(this.bt_novaTela_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.componentesToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(250, 24);
+            this.menuStrip1.TabIndex = 6;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // componentesToolStripMenuItem
+            // 
+            this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.checkedBoxToolStripMenuItem,
+            this.checkedListBoxToolStripMenuItem,
+            this.novoToolStripMenuItem});
+            this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
+            this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
+            this.componentesToolStripMenuItem.Text = "Componentes";
+            // 
+            // checkedBoxToolStripMenuItem
+            // 
+            this.checkedBoxToolStripMenuItem.Name = "checkedBoxToolStripMenuItem";
+            this.checkedBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedBoxToolStripMenuItem.Text = "CheckedBox";
+            this.checkedBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedBoxToolStripMenuItem_Click);
+            // 
+            // checkedListBoxToolStripMenuItem
+            // 
+            this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem.Text = "Checked List Box";
+            this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
+            // 
+            // novoToolStripMenuItem
+            // 
+            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoToolStripMenuItem.Text = "Novo";
+            // 
             // CheckdListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(250, 378);
+            this.Controls.Add(this.bt_novaTela);
             this.Controls.Add(this.txt_listaVeiculos);
             this.Controls.Add(this.bt_limpar);
             this.Controls.Add(this.bt_adicionar);
             this.Controls.Add(this.txt_veiculos);
             this.Controls.Add(this.lb_veiculo);
+            this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "CheckdListBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CheckedBox";
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,6 +169,12 @@
         private System.Windows.Forms.Button bt_adicionar;
         private System.Windows.Forms.Button bt_limpar;
         private System.Windows.Forms.TextBox txt_listaVeiculos;
+        private System.Windows.Forms.Button bt_novaTela;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkedBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
     }
 }
 

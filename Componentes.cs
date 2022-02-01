@@ -27,5 +27,26 @@ namespace Tela_Veiculos
         {
             txt_listaVeiculos.Clear();
         }
+
+        private void bt_novaTela_Click(object sender, EventArgs e)
+        {
+            Tela_Veiculos novaTelaVeiculos = new Tela_Veiculos(txt_listaVeiculos.Text);
+
+            //Abrindo nova tela
+            novaTelaVeiculos.ShowDialog();
+
+        }
+
+        private void checkedBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CheckedBox checkedBox = new CheckedBox();
+            checkedBox.ShowDialog();
+        }
+
+        private void checkedListBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CheckedListBox checkedListBox = new CheckedListBox();
+            checkedListBox.ShowDialog();
+        }
     }
 }

@@ -58,6 +58,12 @@
     <Compile Include="CheckedListBox.Designer.cs">
       <DependentUpon>CheckedListBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComboBox.Designer.cs">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Componentes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="FilhoCheckedBox.Designer.cs">
       <DependentUpon>FilhoCheckedBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_DateTimerPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_DateTimerPicker.Designer.cs">
+      <DependentUpon>Form_DateTimerPicker.cs</DependentUpon>
     </Compile>
     <Compile Include="Tela_Veiculos.cs">
       <SubType>Form</SubType>
@@ -84,11 +96,17 @@
     <EmbeddedResource Include="CheckedListBox.resx">
       <DependentUpon>CheckedListBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Componentes.resx">
       <DependentUpon>Componentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FilhoCheckedBox.resx">
       <DependentUpon>FilhoCheckedBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_DateTimerPicker.resx">
+      <DependentUpon>Form_DateTimerPicker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Veiculos.resx">
       <DependentUpon>Tela_Veiculos.cs</DependentUpon>

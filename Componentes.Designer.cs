@@ -38,7 +38,8 @@
             this.componentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkedListBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ComboBox = new System.Windows.Forms.ToolStripMenuItem();
+            this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -112,7 +113,8 @@
             this.componentesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.checkedBoxToolStripMenuItem,
             this.checkedListBoxToolStripMenuItem,
-            this.novoToolStripMenuItem});
+            this.ComboBox,
+            this.dateTimePickerToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -131,11 +133,19 @@
             this.checkedListBoxToolStripMenuItem.Text = "Checked List Box";
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
-            // novoToolStripMenuItem
+            // ComboBox
             // 
-            this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.novoToolStripMenuItem.Text = "Novo";
+            this.ComboBox.Name = "ComboBox";
+            this.ComboBox.Size = new System.Drawing.Size(180, 22);
+            this.ComboBox.Text = "Combo Box";
+            this.ComboBox.Click += new System.EventHandler(this.ComboBox_Click);
+            // 
+            // dateTimePickerToolStripMenuItem
+            // 
+            this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateTimePickerToolStripMenuItem.Text = "Date Time Picker";
+            this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // CheckdListBox
             // 
@@ -174,7 +184,8 @@
         private System.Windows.Forms.ToolStripMenuItem componentesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkedBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem checkedListBoxToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem novoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ComboBox;
+        private System.Windows.Forms.ToolStripMenuItem dateTimePickerToolStripMenuItem;
     }
 }
 

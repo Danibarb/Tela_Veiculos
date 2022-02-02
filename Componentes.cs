@@ -48,5 +48,17 @@ namespace Tela_Veiculos
             CheckedListBox checkedListBox = new CheckedListBox();
             checkedListBox.ShowDialog();
         }
+
+        private void ComboBox_Click(object sender, EventArgs e)
+        {
+            ComboBox combobox = new ComboBox();
+            combobox.ShowDialog();
+        }
+
+        private void dateTimePickerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_DateTimerPicker dateTime = new Form_DateTimerPicker();
+            dateTime.ShowDialog();
+        }
     }
 }

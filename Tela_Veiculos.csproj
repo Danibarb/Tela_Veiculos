@@ -82,6 +82,12 @@
     <Compile Include="Form_DateTimerPicker.Designer.cs">
       <DependentUpon>Form_DateTimerPicker.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_LinkLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_LinkLabel.Designer.cs">
+      <DependentUpon>F_LinkLabel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +113,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_DateTimerPicker.resx">
       <DependentUpon>Form_DateTimerPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_LinkLabel.resx">
+      <DependentUpon>F_LinkLabel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Veiculos.resx">
       <DependentUpon>Tela_Veiculos.cs</DependentUpon>

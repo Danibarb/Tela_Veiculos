@@ -60,5 +60,11 @@ namespace Tela_Veiculos
             Form_DateTimerPicker dateTime = new Form_DateTimerPicker();
             dateTime.ShowDialog();
         }
+
+        private void linkLabelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_LinkLabel f_linklabel = new F_LinkLabel();
+            f_linklabel.ShowDialog();
+        }
     }
 }

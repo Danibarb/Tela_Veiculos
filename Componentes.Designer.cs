@@ -41,6 +41,7 @@
             this.ComboBox = new System.Windows.Forms.ToolStripMenuItem();
             this.dateTimePickerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.linkLabelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -116,7 +117,8 @@
             this.checkedListBoxToolStripMenuItem,
             this.ComboBox,
             this.dateTimePickerToolStripMenuItem,
-            this.linkLabelToolStripMenuItem});
+            this.linkLabelToolStripMenuItem,
+            this.listBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -155,6 +157,13 @@
             this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.linkLabelToolStripMenuItem.Text = "LinkLabel";
             this.linkLabelToolStripMenuItem.Click += new System.EventHandler(this.linkLabelToolStripMenuItem_Click);
+            // 
+            // listBoxToolStripMenuItem
+            // 
+            this.listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
+            this.listBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listBoxToolStripMenuItem.Text = "ListBox";
+            this.listBoxToolStripMenuItem.Click += new System.EventHandler(this.listBoxToolStripMenuItem_Click);
             // 
             // CheckdListBox
             // 
@@ -196,6 +205,7 @@
         private System.Windows.Forms.ToolStripMenuItem ComboBox;
         private System.Windows.Forms.ToolStripMenuItem dateTimePickerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem linkLabelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
     }
 }
 

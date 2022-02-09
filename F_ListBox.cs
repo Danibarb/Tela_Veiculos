@@ -21,6 +21,13 @@ namespace Tela_Veiculos
             listB_Carros.DataSource = Carros;
         }
 
+        //Funçao para atualizar o list box em mais de uma chamada, sem redundancia de código
+        private void AtualizarListBox(ListBox lb, List<string> l)
+        {
+            lb.DataSource = null;
+            lb.DataSource = Carros;
+        }
+
         private void F_ListBox_Load(object sender, EventArgs e)
         {
 
@@ -43,9 +50,13 @@ namespace Tela_Veiculos
                 //adicionando o carro digitado na Lista Carros
                 Carros.Add(txt_Carros.Text);
                 txt_Carros.Clear();
+                /*
                 listB_Carros.DataSource = null;
                 //Imprimindo o Carro digitado no TextBox dentro do ListBox
-                listB_Carros.DataSource = Carros;
+                listB_Carros.DataSource = Carros;*/
+
+                //Substituindo pela função AtualizarListBox
+                AtualizarListBox(listB_Carros, Carros);
             }
         }
 
@@ -53,8 +64,7 @@ namespace Tela_Veiculos
         {
             //Removendo o carro de acordo com seu indice na lista
             Carros.RemoveAt(listB_Carros.SelectedIndex);
-            listB_Carros.DataSource = null;
-            listB_Carros.DataSource = Carros;
+            AtualizarListBox(listB_Carros, Carros);
         }
 
         private void btn_obter_Click(object sender, EventArgs e)

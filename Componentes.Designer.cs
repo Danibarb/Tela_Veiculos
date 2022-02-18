@@ -48,12 +48,13 @@
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.numericUpdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.progressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.Menu_Veículos = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem_restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.progressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonAndGroupBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Menu_Veículos.SuspendLayout();
             this.SuspendLayout();
@@ -136,7 +137,8 @@
             this.maskedTextBoxToolStripMenuItem,
             this.numericUpdownToolStripMenuItem,
             this.pictureBoxToolStripMenuItem,
-            this.progressBarToolStripMenuItem});
+            this.progressBarToolStripMenuItem,
+            this.radioButtonAndGroupBoxToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -144,72 +146,79 @@
             // checkedBoxToolStripMenuItem
             // 
             this.checkedBoxToolStripMenuItem.Name = "checkedBoxToolStripMenuItem";
-            this.checkedBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.checkedBoxToolStripMenuItem.Text = "CheckedBox";
             this.checkedBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedBoxToolStripMenuItem_Click);
             // 
             // checkedListBoxToolStripMenuItem
             // 
             this.checkedListBoxToolStripMenuItem.Name = "checkedListBoxToolStripMenuItem";
-            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.checkedListBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.checkedListBoxToolStripMenuItem.Text = "Checked List Box";
             this.checkedListBoxToolStripMenuItem.Click += new System.EventHandler(this.checkedListBoxToolStripMenuItem_Click);
             // 
             // ComboBox
             // 
             this.ComboBox.Name = "ComboBox";
-            this.ComboBox.Size = new System.Drawing.Size(180, 22);
+            this.ComboBox.Size = new System.Drawing.Size(219, 22);
             this.ComboBox.Text = "Combo Box";
             this.ComboBox.Click += new System.EventHandler(this.ComboBox_Click);
             // 
             // dateTimePickerToolStripMenuItem
             // 
             this.dateTimePickerToolStripMenuItem.Name = "dateTimePickerToolStripMenuItem";
-            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dateTimePickerToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.dateTimePickerToolStripMenuItem.Text = "Date Time Picker";
             this.dateTimePickerToolStripMenuItem.Click += new System.EventHandler(this.dateTimePickerToolStripMenuItem_Click);
             // 
             // linkLabelToolStripMenuItem
             // 
             this.linkLabelToolStripMenuItem.Name = "linkLabelToolStripMenuItem";
-            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.linkLabelToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.linkLabelToolStripMenuItem.Text = "LinkLabel";
             this.linkLabelToolStripMenuItem.Click += new System.EventHandler(this.linkLabelToolStripMenuItem_Click);
             // 
             // listBoxToolStripMenuItem
             // 
             this.listBoxToolStripMenuItem.Name = "listBoxToolStripMenuItem";
-            this.listBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.listBoxToolStripMenuItem.Text = "ListBox";
             this.listBoxToolStripMenuItem.Click += new System.EventHandler(this.listBoxToolStripMenuItem_Click);
             // 
             // listViewToolStripMenuItem
             // 
             this.listViewToolStripMenuItem.Name = "listViewToolStripMenuItem";
-            this.listViewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listViewToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.listViewToolStripMenuItem.Text = "List View";
             this.listViewToolStripMenuItem.Click += new System.EventHandler(this.listViewToolStripMenuItem_Click);
             // 
             // maskedTextBoxToolStripMenuItem
             // 
             this.maskedTextBoxToolStripMenuItem.Name = "maskedTextBoxToolStripMenuItem";
-            this.maskedTextBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.maskedTextBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.maskedTextBoxToolStripMenuItem.Text = "Masked TextBox";
             this.maskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
             // 
             // numericUpdownToolStripMenuItem
             // 
             this.numericUpdownToolStripMenuItem.Name = "numericUpdownToolStripMenuItem";
-            this.numericUpdownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numericUpdownToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.numericUpdownToolStripMenuItem.Text = "Numeric Updown";
             this.numericUpdownToolStripMenuItem.Click += new System.EventHandler(this.numericUpdownToolStripMenuItem_Click);
             // 
             // pictureBoxToolStripMenuItem
             // 
             this.pictureBoxToolStripMenuItem.Name = "pictureBoxToolStripMenuItem";
-            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pictureBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
             this.pictureBoxToolStripMenuItem.Text = "PictureBox";
             this.pictureBoxToolStripMenuItem.Click += new System.EventHandler(this.pictureBoxToolStripMenuItem_Click);
+            // 
+            // progressBarToolStripMenuItem
+            // 
+            this.progressBarToolStripMenuItem.Name = "progressBarToolStripMenuItem";
+            this.progressBarToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.progressBarToolStripMenuItem.Text = "ProgressBar";
+            this.progressBarToolStripMenuItem.Click += new System.EventHandler(this.progressBarToolStripMenuItem_Click);
             // 
             // notifyIcon1
             // 
@@ -247,12 +256,12 @@
             this.toolStripMenuItem_fechar.Size = new System.Drawing.Size(133, 22);
             this.toolStripMenuItem_fechar.Text = "Fechar";
             // 
-            // progressBarToolStripMenuItem
+            // radioButtonAndGroupBoxToolStripMenuItem
             // 
-            this.progressBarToolStripMenuItem.Name = "progressBarToolStripMenuItem";
-            this.progressBarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.progressBarToolStripMenuItem.Text = "ProgressBar";
-            this.progressBarToolStripMenuItem.Click += new System.EventHandler(this.progressBarToolStripMenuItem_Click);
+            this.radioButtonAndGroupBoxToolStripMenuItem.Name = "radioButtonAndGroupBoxToolStripMenuItem";
+            this.radioButtonAndGroupBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.radioButtonAndGroupBoxToolStripMenuItem.Text = "RadioButton and GroupBox";
+            this.radioButtonAndGroupBoxToolStripMenuItem.Click += new System.EventHandler(this.radioButtonAndGroupBoxToolStripMenuItem_Click);
             // 
             // CheckdListBox
             // 
@@ -306,6 +315,7 @@
         private System.Windows.Forms.ToolStripMenuItem numericUpdownToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem progressBarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem radioButtonAndGroupBoxToolStripMenuItem;
     }
 }
 

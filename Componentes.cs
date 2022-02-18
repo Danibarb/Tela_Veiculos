@@ -123,5 +123,11 @@ namespace Tela_Veiculos
             F_ProgressBar f_ProgressBar = new F_ProgressBar();
             f_ProgressBar.ShowDialog();
         }
+
+        private void radioButtonAndGroupBoxToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_RadioButon_GrupBox f_RadioButon_GrupBox = new F_RadioButon_GrupBox();
+            f_RadioButon_GrupBox.ShowDialog();
+        }
     }
 }

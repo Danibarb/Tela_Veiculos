@@ -124,6 +124,12 @@
     <Compile Include="F_ProgressBar.Designer.cs">
       <DependentUpon>F_ProgressBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_RadioButon_GrupBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_RadioButon_GrupBox.Designer.cs">
+      <DependentUpon>F_RadioButon_GrupBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_ProgressBar.resx">
       <DependentUpon>F_ProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_RadioButon_GrupBox.resx">
+      <DependentUpon>F_RadioButon_GrupBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Veiculos.resx">
       <DependentUpon>Tela_Veiculos.cs</DependentUpon>

@@ -117,5 +117,11 @@ namespace Tela_Veiculos
             F_PictureBox f_PictureBox = new F_PictureBox();
             f_PictureBox.ShowDialog();
         }
+
+        private void progressBarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_ProgressBar f_ProgressBar = new F_ProgressBar();
+            f_ProgressBar.ShowDialog();
+        }
     }
 }

@@ -105,5 +105,11 @@ namespace Tela_Veiculos
                 MessageBox.Show("Mansagem do Notification Icon");
             }
         }
+
+        private void numericUpdownToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_NumericUpDown f_NumericUpDown = new F_NumericUpDown();
+            f_NumericUpDown.ShowDialog();
+        }
     }
 }

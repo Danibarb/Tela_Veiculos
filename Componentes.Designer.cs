@@ -51,6 +51,7 @@
             this.toolStripMenuItem_restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_fechar = new System.Windows.Forms.ToolStripMenuItem();
+            this.numericUpdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Menu_Veículos.SuspendLayout();
             this.SuspendLayout();
@@ -130,7 +131,8 @@
             this.linkLabelToolStripMenuItem,
             this.listBoxToolStripMenuItem,
             this.listViewToolStripMenuItem,
-            this.maskedTextBoxToolStripMenuItem});
+            this.maskedTextBoxToolStripMenuItem,
+            this.numericUpdownToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -205,7 +207,7 @@
             this.toolStripMenuItem_mensagem,
             this.toolStripMenuItem_fechar});
             this.Menu_Veículos.Name = "contextMenuStrip1";
-            this.Menu_Veículos.Size = new System.Drawing.Size(181, 92);
+            this.Menu_Veículos.Size = new System.Drawing.Size(134, 70);
             this.Menu_Veículos.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menu_Veículos_ItemClicked);
             this.Menu_Veículos.Click += new System.EventHandler(this.Menu_Veículos_Click);
             // 
@@ -226,6 +228,13 @@
             this.toolStripMenuItem_fechar.Name = "toolStripMenuItem_fechar";
             this.toolStripMenuItem_fechar.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem_fechar.Text = "Fechar";
+            // 
+            // numericUpdownToolStripMenuItem
+            // 
+            this.numericUpdownToolStripMenuItem.Name = "numericUpdownToolStripMenuItem";
+            this.numericUpdownToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.numericUpdownToolStripMenuItem.Text = "Numeric Updown";
+            this.numericUpdownToolStripMenuItem.Click += new System.EventHandler(this.numericUpdownToolStripMenuItem_Click);
             // 
             // CheckdListBox
             // 
@@ -276,6 +285,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_restaurar;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_mensagem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_fechar;
+        private System.Windows.Forms.ToolStripMenuItem numericUpdownToolStripMenuItem;
     }
 }
 

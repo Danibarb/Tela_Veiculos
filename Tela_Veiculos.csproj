@@ -106,6 +106,12 @@
     <Compile Include="F_MaskedTextBox.Designer.cs">
       <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_NumericUpDown.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_NumericUpDown.Designer.cs">
+      <DependentUpon>F_NumericUpDown.cs</DependentUpon>
+    </Compile>
     <Compile Include="Tela_Veiculos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_MaskedTextBox.resx">
       <DependentUpon>F_MaskedTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_NumericUpDown.resx">
+      <DependentUpon>F_NumericUpDown.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tela_Veiculos.resx">
       <DependentUpon>Tela_Veiculos.cs</DependentUpon>

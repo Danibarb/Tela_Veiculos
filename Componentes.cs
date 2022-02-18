@@ -84,5 +84,26 @@ namespace Tela_Veiculos
             F_MaskedTextBox f_MaskedTextBox = new F_MaskedTextBox();
             f_MaskedTextBox.ShowDialog();
         }
+
+        private void Menu_Veículos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Menu_Veículos_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem.Name.ToString() =="toolStripMenuItem_fechar")
+            {
+                this.Close();
+            }
+            else if(e.ClickedItem.Name.ToString() == "toolStripMenuItem_restaurar")
+            {
+                this.WindowState = FormWindowState.Normal;
+            }
+            else if(e.ClickedItem.Name.ToString() == "toolStripMenuItem_mensagem")
+            {
+                MessageBox.Show("Mansagem do Notification Icon");
+            }
+        }
     }
 }

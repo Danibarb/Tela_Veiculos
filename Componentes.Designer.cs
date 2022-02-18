@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CheckdListBox));
             this.lb_veiculo = new System.Windows.Forms.Label();
             this.txt_veiculos = new System.Windows.Forms.TextBox();
             this.bt_adicionar = new System.Windows.Forms.Button();
@@ -44,7 +46,13 @@
             this.listBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listViewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.maskedTextBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.Menu_Veículos = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem_restaurar = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem_mensagem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem_fechar = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
+            this.Menu_Veículos.SuspendLayout();
             this.SuspendLayout();
             // 
             // lb_veiculo
@@ -183,6 +191,42 @@
             this.maskedTextBoxToolStripMenuItem.Text = "Masked TextBox";
             this.maskedTextBoxToolStripMenuItem.Click += new System.EventHandler(this.maskedTextBoxToolStripMenuItem_Click);
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.ContextMenuStrip = this.Menu_Veículos;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "Veículos";
+            this.notifyIcon1.Visible = true;
+            // 
+            // Menu_Veículos
+            // 
+            this.Menu_Veículos.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem_restaurar,
+            this.toolStripMenuItem_mensagem,
+            this.toolStripMenuItem_fechar});
+            this.Menu_Veículos.Name = "contextMenuStrip1";
+            this.Menu_Veículos.Size = new System.Drawing.Size(181, 92);
+            this.Menu_Veículos.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.Menu_Veículos_ItemClicked);
+            this.Menu_Veículos.Click += new System.EventHandler(this.Menu_Veículos_Click);
+            // 
+            // toolStripMenuItem_restaurar
+            // 
+            this.toolStripMenuItem_restaurar.Name = "toolStripMenuItem_restaurar";
+            this.toolStripMenuItem_restaurar.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem_restaurar.Text = "Restaurar";
+            // 
+            // toolStripMenuItem_mensagem
+            // 
+            this.toolStripMenuItem_mensagem.Name = "toolStripMenuItem_mensagem";
+            this.toolStripMenuItem_mensagem.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem_mensagem.Text = "Mensagem";
+            // 
+            // toolStripMenuItem_fechar
+            // 
+            this.toolStripMenuItem_fechar.Name = "toolStripMenuItem_fechar";
+            this.toolStripMenuItem_fechar.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem_fechar.Text = "Fechar";
+            // 
             // CheckdListBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -203,6 +247,7 @@
             this.Text = "CheckedBox";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.Menu_Veículos.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,6 +271,11 @@
         private System.Windows.Forms.ToolStripMenuItem listBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listViewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem maskedTextBoxToolStripMenuItem;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip Menu_Veículos;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_restaurar;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_mensagem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem_fechar;
     }
 }
 

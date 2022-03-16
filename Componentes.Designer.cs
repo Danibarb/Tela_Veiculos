@@ -49,12 +49,13 @@
             this.numericUpdownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.progressBarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.radioButtonAndGroupBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.Menu_Veículos = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem_restaurar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_mensagem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem_fechar = new System.Windows.Forms.ToolStripMenuItem();
-            this.radioButtonAndGroupBoxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.meuNavegadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.Menu_Veículos.SuspendLayout();
             this.SuspendLayout();
@@ -138,7 +139,8 @@
             this.numericUpdownToolStripMenuItem,
             this.pictureBoxToolStripMenuItem,
             this.progressBarToolStripMenuItem,
-            this.radioButtonAndGroupBoxToolStripMenuItem});
+            this.radioButtonAndGroupBoxToolStripMenuItem,
+            this.meuNavegadorToolStripMenuItem});
             this.componentesToolStripMenuItem.Name = "componentesToolStripMenuItem";
             this.componentesToolStripMenuItem.Size = new System.Drawing.Size(94, 20);
             this.componentesToolStripMenuItem.Text = "Componentes";
@@ -220,6 +222,13 @@
             this.progressBarToolStripMenuItem.Text = "ProgressBar";
             this.progressBarToolStripMenuItem.Click += new System.EventHandler(this.progressBarToolStripMenuItem_Click);
             // 
+            // radioButtonAndGroupBoxToolStripMenuItem
+            // 
+            this.radioButtonAndGroupBoxToolStripMenuItem.Name = "radioButtonAndGroupBoxToolStripMenuItem";
+            this.radioButtonAndGroupBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.radioButtonAndGroupBoxToolStripMenuItem.Text = "RadioButton and GroupBox";
+            this.radioButtonAndGroupBoxToolStripMenuItem.Click += new System.EventHandler(this.radioButtonAndGroupBoxToolStripMenuItem_Click);
+            // 
             // notifyIcon1
             // 
             this.notifyIcon1.ContextMenuStrip = this.Menu_Veículos;
@@ -256,12 +265,12 @@
             this.toolStripMenuItem_fechar.Size = new System.Drawing.Size(133, 22);
             this.toolStripMenuItem_fechar.Text = "Fechar";
             // 
-            // radioButtonAndGroupBoxToolStripMenuItem
+            // meuNavegadorToolStripMenuItem
             // 
-            this.radioButtonAndGroupBoxToolStripMenuItem.Name = "radioButtonAndGroupBoxToolStripMenuItem";
-            this.radioButtonAndGroupBoxToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
-            this.radioButtonAndGroupBoxToolStripMenuItem.Text = "RadioButton and GroupBox";
-            this.radioButtonAndGroupBoxToolStripMenuItem.Click += new System.EventHandler(this.radioButtonAndGroupBoxToolStripMenuItem_Click);
+            this.meuNavegadorToolStripMenuItem.Name = "meuNavegadorToolStripMenuItem";
+            this.meuNavegadorToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
+            this.meuNavegadorToolStripMenuItem.Text = "Meu Navegador";
+            this.meuNavegadorToolStripMenuItem.Click += new System.EventHandler(this.meuNavegadorToolStripMenuItem_Click);
             // 
             // CheckdListBox
             // 
@@ -316,6 +325,7 @@
         private System.Windows.Forms.ToolStripMenuItem pictureBoxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem progressBarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem radioButtonAndGroupBoxToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem meuNavegadorToolStripMenuItem;
     }
 }
 

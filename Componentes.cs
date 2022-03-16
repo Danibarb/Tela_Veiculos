@@ -129,5 +129,11 @@ namespace Tela_Veiculos
             F_RadioButon_GrupBox f_RadioButon_GrupBox = new F_RadioButon_GrupBox();
             f_RadioButon_GrupBox.ShowDialog();
         }
+
+        private void meuNavegadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            F_Navegador f_navegador = new F_Navegador();
+            f_navegador.ShowDialog();
+        }
     }
 }
